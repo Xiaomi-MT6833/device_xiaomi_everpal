@@ -807,6 +807,28 @@ vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/hwcomposer.mt6833.so
 vendor/lib64/hw/memtrack.default.so
 
+# Engineer Mode
+-app/LocationEM2/LocationEM2.apk
+lib/libaudio_param_parser-sys.so
+lib/libaudioutilmtk.so
+lib/libem_aoltest_jni.so
+lib/libem_support_jni.so
+lib/libem_usb_jni.so
+lib/libem_wifi_jni.so
+lib64/libaudio_param_parser-sys.so
+lib64/libaudioutilmtk.so
+lib64/libem_aoltest_jni.so
+lib64/libem_audio_jni.so
+lib64/libem_audio_jni.so
+lib64/libem_support_jni.so
+lib64/libem_usb_jni.so
+lib64/libem_wifi_jni.so
+-priv-app/EngineerMode/EngineerMode.apk
+-priv-app/YGPS/YGPS.apk
+system_ext/lib/libaudiotoolkit.so
+system_ext/lib64/libaudiotoolkit.so
+vendor/lib64/libaudiotoolkit_vendor.so
+
 # Fido
 vendor/bin/fidoca
 vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc
