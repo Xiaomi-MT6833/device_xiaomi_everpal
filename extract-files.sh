@@ -89,6 +89,9 @@ function blob_fixup {
     vendor/bin/hw/camerahalserver)
         "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
         ;;
+    vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so)
+        grep -q "libcamera_metadata_shim.so" "${2}" || "${PATCHELF}" --add-needed "libcamera_metadata_shim.so" "${2}"
+        ;;
     vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc)
         echo "$(cat ${2}) input" > "${2}"
         ;;
