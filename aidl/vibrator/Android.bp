@@ -27,8 +27,8 @@ cc_library_static {
 cc_binary {
     name: "android.hardware.vibrator-service.everpal",
     relative_install_path: "hw",
-    init_rc: ["vibrator-everpal.rc"],
-    vintf_fragments: ["vibrator-everpal.xml"],
+    init_rc: ["android.hardware.vibrator-service.everpal.rc"],
+    vintf_fragments: ["android.hardware.vibrator-service.everpal.xml"],
     vendor: true,
     shared_libs: [
         "libbase",

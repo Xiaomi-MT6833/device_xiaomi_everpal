@@ -19,20 +19,7 @@ namespace hardware {
 namespace vibrator {
 
 std::map<int, std::string> haptic_nodes = {
-    {1, "/sys/class/leds/vibrator/"},
-    {2, "/sys/bus/i2c/drivers/aw8697_haptic/0-005a/"},
-    {3, "/sys/bus/i2c/drivers/aw8697_haptic/1-005a/"},
-    {4, "/sys/bus/i2c/drivers/aw8697_haptic/2-005a/"},
-    {5, "/sys/bus/i2c/drivers/aw8697_haptic/3-005a/"},
-    {6, "/sys/bus/i2c/drivers/awinic_haptic/0-005a/"},
-    {7, "/sys/bus/i2c/drivers/awinic_haptic/1-005a/"},
-    {8, "/sys/bus/i2c/drivers/awinic_haptic/2-005a/"},
-    {9, "/sys/bus/i2c/drivers/awinic_haptic/3-005a/"},
-    {10, "/sys/bus/i2c/drivers/awinic_haptic/9-005a/"},
-    {11, "/sys/bus/i2c/drivers/aw86927_haptic/0-005a/"},
-    {12, "/sys/bus/i2c/drivers/aw86927_haptic/1-005a/"},
-    {13, "/sys/bus/i2c/drivers/aw86927_haptic/2-005a/"},
-    {14, "/sys/bus/i2c/drivers/aw86927_haptic/3-005a/"},
+    {1, "/sys/bus/i2c/drivers/awinic_haptic/9-005a/"},
 };
 
 static std::string HAPTIC_NODE;
