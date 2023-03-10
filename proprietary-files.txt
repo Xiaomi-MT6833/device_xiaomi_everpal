@@ -1369,6 +1369,7 @@ vendor/lib/hw/sound_trigger.primary.default.so
 vendor/lib64/hw/sound_trigger.primary.default.so
 
 # Media
+-vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml
 vendor/lib/libstagefrighthw.so
 vendor/lib64/libstagefrighthw.so
 
