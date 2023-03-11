@@ -1216,7 +1216,7 @@ on property:vendor.nfc.nfcstackp.enable=0
 on property:vendor.nfc.nfcstackp.enable=1
     start nfcstackp_vendor
 
-service nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service.st
+service nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.st
     override
     disabled
     class hal
