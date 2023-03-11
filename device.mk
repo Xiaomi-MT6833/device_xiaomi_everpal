@@ -424,6 +424,11 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlayEverpal \
     WifiOverlayEverpal
 
+ifeq ($(PRODUCT_NAME),evolution_everpal)
+    DEVICE_PACKAGE_OVERLAYS += \
+        $(LOCAL_PATH)/overlay-evolution
+endif
+
 # Screen Resolution
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
