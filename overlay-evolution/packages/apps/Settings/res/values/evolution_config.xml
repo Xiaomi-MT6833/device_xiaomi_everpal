@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2022 The Evolution X Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <bool name="config_supportSmartCharging">true</bool>
+
+    <bool name="config_show_build_status">true</bool>
+
+    <!-- Whether SELinux status should be shown or not. -->
+    <bool name="config_show_selinux_status">true</bool>
+
+    <bool name="config_show_regulatory_info">true</bool>
+    
+        <!-- Battery Health enable -->
+    <bool name="config_supportBatteryHealth">true</bool>
+
+    <!-- Battery Health -->
+    <string name="config_batDesCap">/sys/class/power_supply/battery/charge_full</string>
+    <string name="config_batCurCap">/sys/class/power_supply/battery/charge_counter</string>
+    <string name="config_batChargeCycle">/sys/class/power_supply/battery/cycle_count</string>
+
+</resources>

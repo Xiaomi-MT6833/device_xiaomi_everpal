@@ -5,5 +5,7 @@
 -->
 <resources>
     <string name="build_maintainer_summary">Taqi Raza</string>
+
     <string name="build_maintainer_telegram">https://t.me/mmtrt</string>
+
 </resources>
