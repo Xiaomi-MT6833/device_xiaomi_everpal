@@ -1191,7 +1191,7 @@ service mi_thermald /system/vendor/bin/mi_thermald
     class main
     user root
     group system
-    seclabel u:r:mi_thermald:s0
+    #seclabel u:r:mi_thermald:s0
 
 # Stop Serial Console
 on boot
