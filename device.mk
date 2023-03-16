@@ -51,7 +51,7 @@ PRODUCT_PACKAGES += \
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
-    android.hardware.audio@7.0-impl:32
+    android.hardware.audio@7.1-impl:32
 
 PRODUCT_PACKAGES += \
     android.hardware.audio.common-util.vendor \
