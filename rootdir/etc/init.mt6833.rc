@@ -1244,3 +1244,7 @@ service nfcstackp_vendor /vendor/bin/nfcstackp-vendor
     user nfc
     group nfc
     disabled
+
+# HACK: Fix Network on SetupWizard
+on boot
+    exec - root -- /system/bin/sh -c "settings put global restricted_networking_mode 0"
