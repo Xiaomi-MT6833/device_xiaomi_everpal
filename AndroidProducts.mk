@@ -8,6 +8,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_everpal.mk \
     $(LOCAL_DIR)/arrow_everpal.mk \
     $(LOCAL_DIR)/cherish_everpal.mk \
+    $(LOCAL_DIR)/derp_everpal.mk \
     $(LOCAL_DIR)/evolution_everpal.mk \
     $(LOCAL_DIR)/lineage_everpal.mk \
     $(LOCAL_DIR)/octavi_everpal.mk \
@@ -23,6 +24,9 @@ COMMON_LUNCH_CHOICES := \
     cherish_everpal-user \
     cherish_everpal-userdebug \
     cherish_everpal-eng \
+    derp_everpal-user \
+    derp_everpal-userdebug \
+    derp_everpal-eng \
     evolution_everpal-user \
     evolution_everpal-userdebug \
     evolution_everpal-eng \
