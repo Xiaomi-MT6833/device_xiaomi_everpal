@@ -10,6 +10,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cherish_everpal.mk \
     $(LOCAL_DIR)/derp_everpal.mk \
     $(LOCAL_DIR)/evolution_everpal.mk \
+    $(LOCAL_DIR)/leaf_everpal.mk \
     $(LOCAL_DIR)/lineage_everpal.mk \
     $(LOCAL_DIR)/octavi_everpal.mk \
     $(LOCAL_DIR)/spark_everpal.mk
@@ -30,6 +31,9 @@ COMMON_LUNCH_CHOICES := \
     evolution_everpal-user \
     evolution_everpal-userdebug \
     evolution_everpal-eng \
+    leaf_everpal-user \
+    leaf_everpal-userdebug \
+    leaf_everpal-eng \
     lineage_everpal-user \
     lineage_everpal-userdebug \
     lineage_everpal-eng \
