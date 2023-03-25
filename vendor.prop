@@ -152,6 +152,9 @@ sys.haptic.tap.light=3,2
 sys.haptic.tap.normal=3,2
 sys.haptic.trigger.drawer=2,0
 
+# HWUI
+ro.hwui.render_ahead=10
+
 # IMS
 persist.vendor.ims_support=1
 persist.vendor.mims_support=2
