@@ -72,7 +72,8 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     audio_policy.stub \
     libaudiofoundation.vendor \
-    libaudiopreprocessing
+    libaudiopreprocessing \
+    libhapticgenerator
 
 PRODUCT_PACKAGES += \
     MtkInCallService

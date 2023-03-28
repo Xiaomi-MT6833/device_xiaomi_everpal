@@ -3330,7 +3330,6 @@ vendor/lib/ov16a1qqtech_mipi_raw_tuning.so
 vendor/lib/ov50c40ofilm_mipi_raw_tuning.so
 vendor/lib/s5kjn1sunny_mipi_raw_tuning.so
 vendor/lib/shared-file-region-aidl-cpp.so
-vendor/lib/soundfx/libhapticgenerator.so
 vendor/lib/VP9SecureVdecCA.so
 vendor/lib64/arm.graphics-V1-ndk_platform.so
 vendor/lib64/audioclient-types-aidl-cpp.so
@@ -3596,7 +3595,6 @@ vendor/lib64/ov50c40ofilm_mipi_raw_tuning.so
 vendor/lib64/s5kjn1sunny_mipi_raw_IdxMgr.so
 vendor/lib64/s5kjn1sunny_mipi_raw_tuning.so
 vendor/lib64/shared-file-region-aidl-cpp.so
-vendor/lib64/soundfx/libhapticgenerator.so
 vendor/lib64/VP9SecureVdecCA.so
 vendor/lib64/wechat.beanpod.so
 -vendor/priv-app/GpuGameDriver.mt6833/GpuGameDriver.mt6833.apk
