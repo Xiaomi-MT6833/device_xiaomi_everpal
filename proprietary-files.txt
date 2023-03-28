@@ -3604,4 +3604,3 @@ vendor/res/images/lcd_test_02.png
 vendor/res/sound/ringtone.wav
 vendor/res/sound/testpattern1.wav
 vendor/ro.prop
-vendor/rw.prop
