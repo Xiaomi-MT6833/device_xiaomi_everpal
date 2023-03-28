@@ -10,6 +10,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cherish_everpal.mk \
     $(LOCAL_DIR)/evolution_everpal.mk \
     $(LOCAL_DIR)/lineage_everpal.mk \
+    $(LOCAL_DIR)/octavi_everpal.mk \
     $(LOCAL_DIR)/spark_everpal.mk
 
 COMMON_LUNCH_CHOICES := \
@@ -28,6 +29,9 @@ COMMON_LUNCH_CHOICES := \
     lineage_everpal-user \
     lineage_everpal-userdebug \
     lineage_everpal-eng \
+    octavi_everpal-user \
+    octavi_everpal-userdebug \
+    octavi_everpal-eng \
     spark_everpal-user \
     spark_everpal-userdebug \
     spark_everpal-eng
