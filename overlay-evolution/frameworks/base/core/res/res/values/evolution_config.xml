@@ -12,9 +12,6 @@
 
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 
-    <!-- Whether the device supports Smart Pixels -->
-    <bool name="config_supportSmartPixels">true</bool>
-
     <bool name="config_supportsUdfps">false</bool>
 
     <!-- Pocket Lock -->
