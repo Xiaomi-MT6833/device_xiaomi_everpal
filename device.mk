@@ -417,16 +417,19 @@ PRODUCT_PACKAGES += \
     ApertureOverlayEverpal \
     ApertureQRScannerOverlayEverpal \
     CarrierConfigOverlayEverpal \
-    FrameworksResOverlayEverpal \
-    SettingsOverlayEverpal \
     SystemUIOverlayEverpal \
     TelephonyOverlayEverpal \
     TetheringConfigOverlayEverpal \
     WifiOverlayEverpal
 
 ifeq ($(PRODUCT_NAME),evolution_everpal)
-    DEVICE_PACKAGE_OVERLAYS += \
-        $(LOCAL_PATH)/overlay-evolution
+    PRODUCT_PACKAGES += \
+        EvolutionSettingsResEverpal \
+        EvolutionFrameworksResEverpal
+else
+    PRODUCT_PACKAGES += \
+        FrameworksResOverlayEverpal \
+        SettingsOverlayEverpal 
 endif
 
 # Screen Resolution
