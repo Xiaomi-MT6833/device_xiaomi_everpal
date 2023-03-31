@@ -11,6 +11,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cherish_everpal.mk \
     $(LOCAL_DIR)/derp_everpal.mk \
     $(LOCAL_DIR)/evolution_everpal.mk \
+    $(LOCAL_DIR)/havoc_everpal.mk \
     $(LOCAL_DIR)/leaf_everpal.mk \
     $(LOCAL_DIR)/lineage_everpal.mk \
     $(LOCAL_DIR)/octavi_everpal.mk \
@@ -36,6 +37,9 @@ COMMON_LUNCH_CHOICES := \
     evolution_everpal-user \
     evolution_everpal-userdebug \
     evolution_everpal-eng \
+    havoc_everpal-user \
+    havoc_everpal-userdebug \
+    havoc_everpal-eng \
     leaf_everpal-user \
     leaf_everpal-userdebug \
     leaf_everpal-eng \
