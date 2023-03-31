@@ -7,6 +7,7 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_everpal.mk \
     $(LOCAL_DIR)/arrow_everpal.mk \
+    $(LOCAL_DIR)/banana_everpal.mk \
     $(LOCAL_DIR)/cherish_everpal.mk \
     $(LOCAL_DIR)/derp_everpal.mk \
     $(LOCAL_DIR)/evolution_everpal.mk \
@@ -23,6 +24,9 @@ COMMON_LUNCH_CHOICES := \
     arrow_everpal-user \
     arrow_everpal-userdebug \
     arrow_everpal-eng \
+    banana_everpal-user \
+    banana_everpal-userdebug \
+    banana_everpal-eng \
     cherish_everpal-user \
     cherish_everpal-userdebug \
     cherish_everpal-eng \
