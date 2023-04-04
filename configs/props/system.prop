@@ -6,6 +6,11 @@ ro.audio.usb.period_us=16000
 # Brand
 Build.BRAND=MTK
 
+# Camera
+persist.vendor.camera.privapp.list=com.android.camera,com.google.camera,org.lineageos.aperture
+vendor.camera.aux.packagelist=com.android.camera,com.google.camera,net.sourceforge.opencamera,org.lineageos.aperture
+vendor.camera.aux.packageexcludelist=org.telegram.messenger,com.microsoft.teams,com.discord
+
 # Dalvik
 pm.dexopt.install=speed-profile
 pm.dexopt.bg-dexopt=speed-profile
