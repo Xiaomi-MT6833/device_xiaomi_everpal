@@ -1225,6 +1225,7 @@ service nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.st
     user nfc
     group nfc
 
-# HACK: Fix Network on SetupWizard
-on boot
-    exec - root -- /system/bin/sh -c "settings put global restricted_networking_mode 0"
+on property:sys.boot_completed=1
+    # Restrict permissions to socket file
+    # to hide Magisk
+    chmod 440 /proc/net/unix
