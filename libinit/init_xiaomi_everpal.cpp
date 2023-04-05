@@ -60,7 +60,7 @@ static const variant_info_t evergreen_info = {
     .name = "evergreen_global",
     .marketname = "POCO M4 Pro 5G",
     .model = "21091116AG",
-    .build_fingerprint = "POCO/evergreen_global/evergreen:12/SP1A.210812.016/V13.0.4.0.SGBMIXM:user/release-keys",
+    .build_fingerprint = "POCO/evergreen_global/evergreen:12/SP1A.210812.016/V13.0.5.0.SGBMIXM:user/release-keys",
 
     .nfc = true,
 };
@@ -74,7 +74,7 @@ static const variant_info_t opal_info = {
     .name = "opal_global",
     .marketname = "Redmi Note 11S 5G",
     .model = "22031116BG",
-    .build_fingerprint = "Redmi/opal_global/opal:12/SP1A.210812.016/V13.0.4.0.SGBMIXM:user/release-keys",
+    .build_fingerprint = "Redmi/opal_global/opal:12/SP1A.210812.016/V13.0.4.0.SGLMIXM:user/release-keys",
 
     .nfc = true,
 };
