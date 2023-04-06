@@ -105,6 +105,15 @@ ro.vendor.display.svi=1
 vendor.display.svi.config=1
 vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 
+#VSYNC durations for high fps
+debug.sf.high_fps.late.sf.duration=13800000
+debug.sf.high_fps.late.app.duration=10000000
+debug.sf.high_fps.early.sf.duration=13800000
+debug.sf.high_fps.early.app.duration=10000000
+debug.sf.high_fps.earlyGl.sf.duration=13800000
+debug.sf.high_fps.earlyGl.app.duration=10000000
+debug.sf.high_fps.hwc.min.duration=8500000
+
 # DRM
 drm.service.enabled=true
 ro.vendor.mtk_widevine_drm_l1_support=1
