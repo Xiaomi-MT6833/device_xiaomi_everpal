@@ -205,7 +205,6 @@ persist.vendor.mtk_sim_switch_policy=2
 persist.vendor.mtk_wfc_support=1
 ro.colorpick_adjust=true
 ro.config.vc_call_vol_steps=15
-ro.control_privapp_permissions=enforce
 ro.incremental.enable=yes
 ro.logd.size.stats=64K
 ro.mtk_cam_dualzoom_support=1
