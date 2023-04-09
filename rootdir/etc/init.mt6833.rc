@@ -1211,7 +1211,6 @@ on post-fs-data
 
 on property:ro.boot.product.hardware.sku=nfc
     start nfc_hal_service
-    start mtk_secure_element_hal_service
 
 on property:vendor.nfc.nfcstackp.enable=0
     stop nfcstackp_vendor
@@ -1225,25 +1224,6 @@ service nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.st
     class hal
     user nfc
     group nfc
-
-service mtk_secure_element_hal_service /vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
-    override
-    disabled
-    class hal
-    user secure_element
-    group secure_element
-
-service stflashtool /vendor/bin/STFlashTool
-    class late_start
-    user nfc
-    group nfc
-    oneshot
-
-service nfcstackp_vendor /vendor/bin/nfcstackp-vendor
-    class late_start
-    user nfc
-    group nfc
-    disabled
 
 # HACK: Fix Network on SetupWizard
 on boot

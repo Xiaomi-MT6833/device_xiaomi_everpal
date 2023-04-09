@@ -1645,12 +1645,9 @@ vendor/lib64/libneuropilot_hal_utils.so|f540511b617af682c40c35e6730eb59d1a91b641
 vendor/lib64/mt6833/libnir_neon_driver.so:vendor/lib64/libnir_neon_driver.so|271465e153ae8281ec7b1ecd7cc0cc12f5a0fea8
 
 # NFC - from Redmi/opal_eea/opal:12/SP1A.210812.016/V13.0.4.0.SGLEUXM:user/release-keys
-vendor/bin/nfcstackp-vendor|1963713339cc744416cd54c116c8f98844489da2
-vendor/bin/STFlashTool|328b594435278385269c93777036ce4144903522
 vendor/etc/libnfc-hal-st.conf|607ff69b048139c444e7db5b2fb4844fc124db5f
 vendor/etc/libnfc-nci.conf|5032c35bd12a3dc2b5bdb0a8d6811a7e73090e22
 vendor/etc/st21nfc_conf.txt|c254274373db231ed2e31c52db3669d847996fb1
-vendor/firmware/st21nfc_fw7.bin|911906c79d9bdce044e74165036c63dc1295b852
 vendor/lib64/libnxp_extamp_intf.so|8e80561f2f9783294a01c778a376aab2a6554609
 vendor/lib64/nfc_nci.st21nfc.st.so|935b3c9b4038bc4277fd65be08f336a38b02c364
 
@@ -1662,11 +1659,6 @@ vendor/lib64/hw/power.default.so
 
 # Radio
 vendor/lib/libvsim.so
-
-# Secure Element - from Redmi/opal_eea/opal:12/SP1A.210812.016/V13.0.4.0.SGLEUXM:user/release-keys
-vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek|2f551a8e4627c859aff8da0a02f23d62bb8ccc11
-vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc|0c6f07a2b8522a52e23d3a20151c0360a7c441c6
-vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so|9349a2ca04cdcfba5d7c8ad5a6852b912c2ae381
 
 # Sensors
 vendor/etc/elliptic_sensor.xml

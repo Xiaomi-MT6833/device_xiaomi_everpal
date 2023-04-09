@@ -118,7 +118,6 @@ BOARD_USES_METADATA_PARTITION := true
 # NFC
 ODM_MANIFEST_SKUS += nfc
 ODM_MANIFEST_NFC_FILES := \
-    $(DEVICE_PATH)/configs/vintf/manifest_se.xml \
     hardware/st/nfc/aidl/nfc-service-default.xml
 
 # Partitions
