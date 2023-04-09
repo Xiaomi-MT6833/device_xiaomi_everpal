@@ -1,4 +1,4 @@
-# All blobs from evergo-user 12 SP1A.210812.016 V13.0.7.0.SGBINXM release-keys, unless pinned
+# All blobs from evergo-user 12 SP1A.210812.016 V13.0.9.0.SGBINXM release-keys, unless pinned
 
 # AAL
 vendor/lib/libaal_cust.so
