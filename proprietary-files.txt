@@ -1745,7 +1745,6 @@ vendor/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta
 -vendor/etc/vintf/manifest/manifest_hwcomposer.xml
 
 # WiFi
-bin/iwpriv
 -vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
 
 # Xiaomi
