@@ -40,6 +40,7 @@
     -->
     <string-array name="config_additionalVideoConfigurations">
         <item>0</item> <item>hd|fhd</item> <item>30|60</item>
+	<item>1</item> <item>hd|fhd</item> <item>30</item>
     </string-array>
 
 </resources>
