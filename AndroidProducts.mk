@@ -5,6 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/aicp_everpal.mk \
     $(LOCAL_DIR)/aosp_everpal.mk \
     $(LOCAL_DIR)/arrow_everpal.mk \
     $(LOCAL_DIR)/banana_everpal.mk \
@@ -20,6 +21,9 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/superior_everpal.mk
 
 COMMON_LUNCH_CHOICES := \
+    aicp_everpal-user \
+    aicp_everpal-userdebug \
+    aicp_everpal-eng \
     aosp_everpal-user \
     aosp_everpal-userdebug \
     aosp_everpal-eng \
