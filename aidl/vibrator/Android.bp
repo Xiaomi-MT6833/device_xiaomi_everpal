@@ -2,7 +2,7 @@
 // SPDX-License-Identifer: Apache-2.0
 
 cc_library_static {
-    name: "libvibratoreverpalimpl",
+    name: "android.hardware.vibrator-impl.everpal",
     vendor: true,
     shared_libs: [
         "libbase",
@@ -36,7 +36,7 @@ cc_binary {
         "android.hardware.vibrator-V2-ndk",
     ],
     static_libs: [
-        "libvibratoreverpalimpl",
+        "android.hardware.vibrator-impl.everpal",
     ],
     srcs: ["main.cpp"],
 }
