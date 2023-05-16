@@ -371,6 +371,9 @@ PRODUCT_PACKAGES += \
     RcsService
 
 # Recovery
+PRODUCT_PACKAGES += \
+    init.recovery.mt6833.rc
+
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/everpal/proprietary/vendor/firmware/mt6631_fm_v1_coeff.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/mt6631_fm_v1_coeff.bin \
     vendor/xiaomi/everpal/proprietary/vendor/firmware/mt6631_fm_v1_patch.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/mt6631_fm_v1_patch.bin \

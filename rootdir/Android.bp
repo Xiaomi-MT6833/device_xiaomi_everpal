@@ -83,3 +83,11 @@ prebuilt_etc {
     src: "etc/fstab.mt6833",
     vendor: true,
 }
+
+// Recovery init configuration
+prebuilt_etc {
+    name: "init.recovery.mt6833.rc",
+    recovery: true,
+    src: "etc/init.recovery.mt6833.rc",
+    sub_dir: "init",
+}
