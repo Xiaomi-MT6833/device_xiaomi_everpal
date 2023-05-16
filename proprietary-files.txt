@@ -1888,7 +1888,6 @@ vendor/bin/doeapp-sat
 vendor/bin/dreport
 vendor/bin/dtc_vendor
 vendor/bin/em_hidl
-vendor/bin/factory
 vendor/bin/fuelgauged
 vendor/bin/fuelgauged_nvram
 vendor/bin/gbe
@@ -1907,7 +1906,6 @@ vendor/bin/lib3a.ccu.dm
 vendor/bin/lib3a.ccu.pm
 vendor/bin/md_monitor
 vendor/bin/md_monitor_ctrl
-vendor/bin/meta_tst
 vendor/bin/mnld
 vendor/bin/mrdump_tool
 vendor/bin/mt6660_calibration
@@ -1972,7 +1970,6 @@ vendor/etc/ecc_list_OP18.xml
 vendor/etc/ecc_list_OP20.xml
 vendor/etc/ecc_list_OP236.xml
 vendor/etc/ecc_list_preference.xml
-vendor/etc/factory.ini
 vendor/etc/fstb.cfg
 vendor/etc/gbe.cfg
 vendor/etc/gnss/agps_profiles_conf2.xml
