@@ -1357,11 +1357,7 @@ vendor/firmware/WindChime_RTP.bin
 vendor/firmware/WMT_SOC.cfg
 
 # GPS
-vendor/bin/hw/android.hardware.gnss-service.mediatek
-vendor/etc/init/android.hardware.gnss-service.mediatek.rc
 vendor/lib/hw/gps.default.so
-vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
-vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
 
 # Gatekeeper
@@ -1799,8 +1795,6 @@ vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta
 vendor/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta
 
 # Vintf
--vendor/etc/vintf/manifest/gnss-default.xml:vendor/etc/vintf/manifest/gnss-mediatek.xml
--vendor/etc/vintf/manifest/gnss@2.1-service.xml
 -vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml
 -vendor/etc/vintf/manifest/manifest_hwcomposer.xml
 
