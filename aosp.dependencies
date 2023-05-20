@@ -18,5 +18,11 @@
 		"repository":	"Xiaomi-MT6833/hardware_xiaomi",
 		"target_path":	"hardware/xiaomi",
 		"branch":	"thirteen"
+	},
+	{
+		"remote":	"github",
+		"repository":	"Xiaomi-MT6833/hardware_mediatek",
+		"target_path":	"hardware/mediatek",
+		"branch":	"thirteen"
 	}
 ]
