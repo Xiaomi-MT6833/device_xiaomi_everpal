@@ -1418,18 +1418,6 @@ lib64/libvt_avsync.so
 system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
-# Kernel Modules
-vendor/lib/modules/bt_drv_connac1x.ko:vendor_dlkm/lib/modules/bt_drv_connac1x.ko
-vendor/lib/modules/connfem.ko:vendor_dlkm/lib/modules/connfem.ko
-vendor/lib/modules/fmradio_drv_mt6631_6635.ko:vendor_dlkm/lib/modules/fmradio_drv_mt6631_6635.ko
-vendor/lib/modules/fpsgo.ko:vendor_dlkm/lib/modules/fpsgo.ko
-vendor/lib/modules/gps_drv.ko:vendor_dlkm/lib/modules/gps_drv.ko
-vendor/lib/modules/met.ko:vendor_dlkm/lib/modules/met.ko
-vendor/lib/modules/sla.ko:vendor_dlkm/lib/modules/sla.ko
-vendor/lib/modules/wlan_drv_gen4m.ko:vendor_dlkm/lib/modules/wlan_drv_gen4m.ko
-vendor/lib/modules/wmt_chrdev_wifi.ko:vendor_dlkm/lib/modules/wmt_chrdev_wifi.ko
-vendor/lib/modules/wmt_drv.ko:vendor_dlkm/lib/modules/wmt_drv.ko
-
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.1-service.beanpod
 vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service
