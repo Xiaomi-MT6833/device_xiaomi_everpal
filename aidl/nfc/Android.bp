@@ -1,0 +1,24 @@
+cc_binary {
+    name: "android.hardware.nfc-service.everpal",
+    relative_install_path: "hw",
+    init_rc: ["android.hardware.nfc-service.everpal.rc"],
+    vintf_fragments: ["android.hardware.nfc-service.everpal.xml"],
+    vendor: true,
+    cflags: [
+        "-Wall",
+        "-Wextra",
+    ],
+    shared_libs: [
+        "libbase",
+        "liblog",
+        "libutils",
+        "libbinder_ndk",
+        "android.hardware.nfc-V1-ndk",
+        "nfc_nci.st21nfc.default",
+    ],
+    srcs: [
+        "main.cpp",
+        "Nfc.cpp",
+        "hal_st21nfc.cc",
+    ],
+}
