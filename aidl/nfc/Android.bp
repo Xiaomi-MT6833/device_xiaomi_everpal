@@ -2,7 +2,6 @@ cc_binary {
     name: "android.hardware.nfc-service.everpal",
     relative_install_path: "hw",
     init_rc: ["android.hardware.nfc-service.everpal.rc"],
-    vintf_fragments: ["android.hardware.nfc-service.everpal.xml"],
     vendor: true,
     cflags: [
         "-Wall",
