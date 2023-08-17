@@ -1933,7 +1933,6 @@ vendor/etc/AbnormalDisplayLog_dynamic.xml
 vendor/etc/apdb/APDB_MT6853_S01__W2236
 vendor/etc/apdb/APDB_MT6853_S01__W2236_ENUM
 vendor/etc/AudioLog_dynamic.xml
-vendor/etc/aurisys_config.xml
 vendor/etc/cgroups.json
 vendor/etc/ecc_list.xml
 vendor/etc/ecc_list_OP01.xml
